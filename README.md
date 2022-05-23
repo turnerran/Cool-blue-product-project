@@ -7,13 +7,13 @@ Use the Order Controller
      {
        "accountId": 33
      }
-  
+  2)
      Add product specific order:
      Post - http://localhost:5000/api/insurance/order/33, 
      body:
      {
        "productId": 735246
      }
-  
+  3)
      Get specific order with it's insurance value and related products:
      Get - http://localhost:5000/api/insurance/order/33
