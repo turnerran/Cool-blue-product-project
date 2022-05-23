@@ -1,4 +1,6 @@
 # net-interviewing-project-v2
+
+Assumptions - I used a cache service to keep the state of the order and products. this information will be deleted once the server is terminated.
  
 Use the Order Controller
   1) Create order for specific account:
